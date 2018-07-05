@@ -1,5 +1,6 @@
 const mongoose = require("mongoose")
 const Blog = require("../models/blogmodel/blogmodel")
+const MONGODB_URI = require("./config/keys")
 mongoose.Promise = global.Promise
 
 const blogSeed = [
@@ -61,7 +62,7 @@ const blogSeed = [
 const connect_db = () => {
     console.log("in connect_db")
     mongoose.connect(
-        process.env.MONGODB_URI || "mongodb://localhost/BlbDB"
+        MONGODB_URI || "mongodb://localhost/BlbDB"
     )
 }
 

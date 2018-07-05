@@ -1,0 +1,1 @@
+module.exports = "mongodb://<hefailsme>:<Albert5>@ds127811.mlab.com:27811/bldb"

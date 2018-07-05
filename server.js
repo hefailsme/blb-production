@@ -7,6 +7,7 @@ const blogSeed = require("./scripts/blogseedDB")
 const path = require("path")
 const app = express()
 const PORT = process.env.PORT || 8889
+
 // define middleware
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())

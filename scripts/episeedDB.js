@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 const Episode = require("../models/episodemodel/episodemodel")
-const MONGODB_URI = require("./config/keys")
+const MONGODB_URI = require("../config/keys")
 mongoose.Promise = global.Promise
 
 const episodeSeed = [

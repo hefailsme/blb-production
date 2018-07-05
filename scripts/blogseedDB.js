@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 const Blog = require("../models/blogmodel/blogmodel")
-const MONGODB_URI = require("./config/keys")
+const MONGODB_URI = require("../config/keys")
 mongoose.Promise = global.Promise
 
 const blogSeed = [

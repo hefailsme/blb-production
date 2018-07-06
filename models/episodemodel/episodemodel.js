@@ -1,6 +1,9 @@
 var mongoose = require('mongoose')
 
 var Episode = mongoose.Schema({
+key: {
+    type: Number
+},    
 number: {
     type: Number
 },

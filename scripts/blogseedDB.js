@@ -5,6 +5,7 @@ mongoose.Promise = global.Promise
 
 const blogSeed = [
     {
+        key: 1,
         number: 1,
         date: "9-10-2013",
         embed: "https://www.youtube.com/embed/MiP21jrUyAc",
@@ -14,6 +15,7 @@ const blogSeed = [
     },
     
     {
+        key: 2,
         number: 2,
         date: "9-10-2013",
         embed: "https://www.youtube.com/embed/VoDtDdccapU",
@@ -23,6 +25,7 @@ const blogSeed = [
     },
     
     {
+        key: 3,
         number: 3,
         date: "9-10-2013",
         embed: "https://www.youtube.com/embed/-0njcvU3nKA",
@@ -32,6 +35,7 @@ const blogSeed = [
     },
     
     {
+        key: 4,
         number: 4,
         date: "4-11-2013",
         embed: "https://www.youtube.com/embed/jw-6_fqlXYU",
@@ -41,6 +45,7 @@ const blogSeed = [
     },
     
     {
+        key: 5,
         number: 5,
         date: "4-11-2013",
         embed: "https://www.youtube.com/embed/IL2gPkjr2uI",
@@ -50,6 +55,7 @@ const blogSeed = [
     },
     
     {
+        key: 6,
         number: 6,
         date: "4-11-2013",
         embed: "https://www.youtube.com/embed/sO9CoSOKI_M",

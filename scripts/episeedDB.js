@@ -5,6 +5,7 @@ mongoose.Promise = global.Promise
 
 const episodeSeed = [
     {
+        key: 1,
         number: 1,
         band: "Peace'd Out",
         title: "Peace'd Out debuts 'I Would Like To Feed Your Fingertips. To The Wolverines'",
@@ -14,6 +15,7 @@ const episodeSeed = [
     },
     
     {
+        key: 2,
         number: 2,
         band: "Peace'd Out",
         title: "Peace'd Out debuts 'Castlemania'",
@@ -23,6 +25,7 @@ const episodeSeed = [
     },
     
     {
+        key: 3,
         number: 3,
         band: "Felled Trees",
         title: "Felled Trees perform Dinosaur Jr's 'Get Me'",
@@ -32,6 +35,7 @@ const episodeSeed = [
     },
     
     {
+        key: 4,
         number: 4,
         band: "Surf Riot",
         title: "Surf Riot perfom 'Woods'",
@@ -41,6 +45,7 @@ const episodeSeed = [
     },
     
     {
+        key: 5,
         number: 5,
         band: "Surf Riot",
         title: "Surf Riot perform 'Angela's Song'",
@@ -50,6 +55,7 @@ const episodeSeed = [
     },
     
     {
+        key: 6,
         number: 6,
         band: "Surf Riot",
         title: "Surf Riot perform 'You Are An Aperture'",

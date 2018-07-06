@@ -1,6 +1,9 @@
 var mongoose = require('mongoose')
 
 var Blog = mongoose.Schema({
+key: {
+    type: Number
+},
 number: {
     type: Number
 },

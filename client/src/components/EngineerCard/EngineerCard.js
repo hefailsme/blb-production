@@ -36,7 +36,7 @@ class Engineer extends Component {
               <Col lg="7">
                   <h3 className="pink-text font-weight-bold mb-3 p-0"><strong>ABOUT ROGER CAMERO</strong></h3>
                   <p className="roger">Roger Camero is an audio engineer and musician, living in Orange County.
-                      He has been active in the music industry for the past 20 years, starting out playing in
+                      He has been active in the music industry for the past 20 years and started out playing in
                       the punk band, No Motiv, in 1998. Since then, he's played in bands such as The Warriors, Peace'd Out,
                       Retaliate, Grave Maker, and Felled Trees. As a solo artist, he goes by the name, He Fails Me.
                       In 2008 he started working as a touring Front-of-House Live Sound Engineer for RX Bandits, as well as a Tech

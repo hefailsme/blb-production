@@ -7,14 +7,14 @@ const Foot = () => (
                 <div className="pink">
                     <Container className="text-left">
                         <Row className="py-4 d-flex align-items-center">
-                            <Col md="4" className="text-center text-md-left mb-4 mb-md-0">
+                            <Col md="4" className="text-center text-md-left mb-2 mb-md-0">
                             <img src={require('../../assets/images/BLB_Bulb_Final.png')} alt="bl-bulb" height="30"/>   
                             </Col>
-                            <Col md="4" className="text-center text-md-center mb-4 mb-md-0">
+                            <Col md="4" className="text-center text-md-center mb-2 mb-md-0">
                             <img src={require('../../assets/images/BLB_TypeOnly_Wht.png')} alt="bl-type-wht" height="30"/> 
                             </Col>
-                            <Col md="4" className="text-center text-md-right mb-4 mb-md-0">
-                                <a className="yt-ic" href="https://www.youtube.com/user/sightthesiren/featured" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube white-text mr-lg-4"> </i></a>
+                            <Col md="4" className="text-center text-md-right mb-6 mb-md-0">
+                                <a className="yt-ic" href="https://www.youtube.com/user/sightthesiren/featured" target="_blank" rel="noopener noreferrer"><i className="fa fa-youtube white-text mr-lg-4"></i></a>
                                 <a className="ins-ic" href="http://instagram.com/brightlightsbasement" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram white-text mr-lg-4"> </i></a>
                                 <a className="fb-ic ml-0" href="http://facebook.com/brightlightsbasement" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook white-text mr-lg-4"> </i></a>
                                 <a className="tw-ic" href="http://twitter.com/basementbright" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter white-text mr-lg-4"> </i></a>

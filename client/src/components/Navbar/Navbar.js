@@ -36,7 +36,7 @@ render() {
                 { !this.state.isWideEnough && <NavbarToggler onClick={ this.onClick } />}
                 <Collapse isOpen = { this.state.collapse } navbar>
                     <NavbarNav left>
-                      <NavItem active>
+                      <NavItem>
                           <NavLink to ="/home" onClick="/home">HOME</NavLink>
                       </NavItem>
                       <NavItem>
@@ -45,7 +45,12 @@ render() {
                       <NavItem>
                           <NavLink to ="/blog" onClick="/blog">STUDIO BLOG</NavLink>
                       </NavItem>
+                      <NavItem>
+                        <NavLink to ="/engineer" onClick="/engineer">OUR ENGINEERS</NavLink>
+                      </NavItem>
                     </NavbarNav>
+                </Collapse>
+                <Collapse isOpen = { this.state.collapse } navbar>
                     <NavbarNav right>
                       <NavItem>
                         <NavLink to="https://www.youtube.com/user/sightthesiren/featured" target="_blank" onClick="https://www.youtube.com/user/sightthesiren/featured"><Fa icon="youtube"/></NavLink>
@@ -60,7 +65,7 @@ render() {
                         <NavLink to="http://twitter.com/basementbright" target="_blank" onClick="http://twitter.com/basementbright"><Fa icon="twitter"/></NavLink>
                       </NavItem>
                     </NavbarNav>
-                </Collapse>
+            </Collapse>
             </Navbar>
             </Row>
         </Router>

@@ -6,7 +6,7 @@ module.exports = {
         Episode
             .find({})
             .sort({
-                number: 1
+                key: 1
             })
 
             .then(dbModel => res.json(dbModel))

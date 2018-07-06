@@ -58,7 +58,7 @@ class List extends Component {
                   which eventually became Bright Lights version 2. After a couple years sharing the space, 
                   Dan found himself a new home tattooing in Los Angeles, and Roger inherited the whole warehouse. 
                   That is when Erol re-entered the picture and became a full time studio mate. Bright Lights 2.0 served as their homebase for 11 years.
-                  Throughout the years, bands such as Thrice, RX Bandits, Comeback Kid, Night Demon, Silver Snakes, Sea Haven, and Graf Orlock graced Bright Lights with their presence.
+                  Throughout the years, bands such as Thrice, RX Bandits, Comeback Kid, Night Demon, Silver Snakes, Seahaven, Seizures, and Graf Orlock graced Bright Lights with their presence.
                   Unfortunately, all great things eventually come to an end. In the summer of 2018, 
                   the building that Bright Lights operated in was sold, and the production duo was forced to move out.
                 </p>

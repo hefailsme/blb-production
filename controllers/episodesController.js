@@ -3,7 +3,6 @@ const Episode = require("../models/episodemodel/episodemodel")
 // defining methods for the episodeController
 module.exports = {
     findAll: function (req, res) {
-        console.log('yo waddup')
         Episode
             .find({})
             .sort({

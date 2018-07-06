@@ -1,5 +1,5 @@
 import React from 'react';
-import { Footer, Col, Container, Row } from 'mdbreact';
+import { Footer, Col, Container, Row, Button} from 'mdbreact';
 import './Footer.css'
 
 const Foot = () => (
@@ -25,10 +25,10 @@ const Foot = () => (
                 <Container className="mt-5 mb-4 text-center text-md-left">
                     <Row className="mt-3">
                         <Col md="3" lg="4" xl="3" className="mb-4">
-                            <h6 className="text-uppercase font-weight-bold"><strong>OUR ENGINEERS</strong></h6>
+                            <h6 className="text-uppercase font-weight-bold"><strong>ABOUT OUR ENGINEERS</strong></h6>
                             <hr className="pink accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{width: '250px'}}/>
-                            <p> To contact our engineers about booking recording sessions, and to send a request for episode booking, 
-                                choose from the following links. </p>
+                            <p>To learn more about our two engineers, Roger Camero & Erol Ulug, click the link button below.</p>
+                            <Button block href="/engineer" onClick="/engineer" active size="sm" color="pink" rounded>READ MORE</Button>
                         </Col>
                         <Col md="4" lg="3" xl="3" className="mb-4">
                             <h6 className="text-uppercase font-weight-bold"><strong>CONTACT ROGER CAMERO</strong></h6>

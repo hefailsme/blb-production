@@ -3,7 +3,6 @@ const Blog = require("../models/blogmodel/blogmodel")
 // defining methods for the episodeController
 module.exports = {
     findAll: function(req, res) {
-        console.log("hit the blog")
         Blog
             .find({})
             .sort({ date: -1})

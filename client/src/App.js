@@ -5,6 +5,7 @@ import './App.css'
 import Home from './Layouts/Home';
 import Episode from './Layouts/Episode';
 import Blog from './Layouts/Blog';
+import Engineer from './Layouts/Engineer';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
 
@@ -17,6 +18,7 @@ const App = () => (
         <Route exact path="/home" component={Home} />
         <Route exact path="/episode" component={Episode} />
         <Route exact path="/blog" component={Blog} />
+        <Route exact path="/engineer" component={Engineer} />
         </Switch>
     </Router>
 );

@@ -27,10 +27,10 @@ render() {
           <Router>
               <Row>
             <Navbar color="black" dark expand="md" scrolling fixed="top">
-            <NavbarBrand href="#">
+            <NavbarBrand href="/home" onClick="/home">
                 <img src={require('../../assets/images/BLB_Bulb_Final.png')} alt="bl-bulb" height="30"/>   
             </NavbarBrand>
-            <NavbarBrand href="#">
+            <NavbarBrand href="/home" onClick="/home">
                 <img src={require('../../assets/images/BLB_TypeOnly_Blk.png')} alt="bl-type-blk" height="30"/>   
             </NavbarBrand>
                 { !this.state.isWideEnough && <NavbarToggler onClick={ this.onClick } />}

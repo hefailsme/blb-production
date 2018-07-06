@@ -5,7 +5,7 @@ module.exports = {
     findAll: function(req, res) {
         Blog
             .find({})
-            .sort({ date: -1})
+            .sort({ number: 1})
             .then(dbModel => res.json(dbModel))
             .catch(err => res.status(422).json(err))
     },

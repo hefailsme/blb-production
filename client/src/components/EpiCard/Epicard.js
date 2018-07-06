@@ -32,7 +32,7 @@ class EpiCard extends React.Component {
                 <Row>
                     {this.state.episodes.map(episodes => 
                     <Col lg="4" md="12" className="mb-lg-0 mb-4">
-                        <View hover className="rounded z-depth-2 mb-4"  waves>
+                        <View hover className="rounded z-depth-2 mb-4" waves>
                             <iframe title="Episode" width="280" height="250" src={episodes.embed} frameborder="0" 
                             allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </View>

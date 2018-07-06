@@ -1,84 +1,31 @@
-# Create React Express App
+BRIGHT LIGHTS BASEMENT IS A MERN STACK APP CREATED BY ROGER CAMERO
 
-## About This Boilerplate
+THE FOCUS OF BRIGHT LIGHTS BASEMENT IS TO SHOWCASE THE WORK CREATED BY THE TWO HOUSE ENGINEERS
+OF BRIGHT LIGHTS STUDIO, ROGER CAMERO AND EROL ULUG.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+THIS APP UTILIZES:
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+    - REACT JS
+    - BOOTSTRAP CSS
+    - MONGODB
+    - NODE JS
+    - NPM MDBREACT
+    - NPM AXIOS
+    - NPM EXPRESS
+    - NPM BODY-PARSER
+    - NPM FONTAWESOME
+    
+BRIGHT LIGHTS BASEMENT IS ALSO A MOBILE RESPONSIVE APP, FEATURING LINKS TO POPULAR SOCIAL MEDIA SITES, AS WELL AS DIRECTLY EMBEDDED YOUTUBE VIDEOS SHOWCASING WORK FROM THE STUDIO.
 
-## Starting the app locally
+MONGODB IS USED TO STORE THE WEBSITES DATA, WHICH FEEDS THE SITE CONTENT.
 
-Start by installing front and backend dependencies. While in this directory, run the following commands:
+FUTURE GOALS FOR THE SITE ARE TO HAVE AN ADMIN USER AUTHORIZATION WHICH ALLOWS THE ADMIN TO FILL OUT A FORM WHICH, WHEN PROPERLY FILLED OUT, WILL SEND A NEW JSON OBJECT TO MONGODB FOR IMMEDIATE RENDERING TO THE SITE.
 
-```
-yarn install
-cd client
-yarn install
-cd ..
-``
+ANOTHER GOAL IS TO HAVE A SEARCH BAR IN THE NAVBAR ONCE THE DATABASE GROWS LARGE ENOUGH TO CALL FOR A SEARCH BAR ADDITION.
 
-After both installations complete, run the following command in your terminal:
+PLEASE VISIT MY HEROKU DEPLOYED WEBSITE AT: https://blb-production.herokuapp.com/
 
-```
-yarn start
-```
 
-That's it, your app should be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
 
-## Deployment (Heroku)
 
-### Create a Git Repo
-
-Once you're ready to deploy, start by making sure your project is a git repository. If so, proceed to the next section, otherwise run the following commands in your terminal:
-
-```
-git init
-git add .
-git commit -m "Initial commit"
-```
-
-### Heroku
-
-Make sure that you have a Heroku app created for this project. If so, proceed to the next section, otherwise run the following command in your terminal:
-
-```
-heroku create
-```
-
-Optionally add an argument for your application's name after `create`, e.g.
-
-```
-heroku myAwesomeApp
-```
-
-### Deploying
-
-#### Option 1
-
-Use the deploy script inside of the outer `package.json`
-
-After confirming that you have an up to date git repository and a Heroku app created, run the following command to deploy:
-
-```
-yarn deploy
-```
-
-If all previous steps were followed correctly, your application should be deployed to Heroku!
-
-#### Option 2
-
-Manually deploy 
-
-After confirming that you have an up to date git repository and a Heroku app created, complete the following:
-
-1. Build the React app for production by running the following command:
-
-```
-yarn build
-```
-
-2. Add and commit all changes to git
-
-3. Push to Heroku
-
-If all previous steps were followed correctly, your application should be deployed to Heroku!
+    

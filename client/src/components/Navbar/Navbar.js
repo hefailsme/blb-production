@@ -1,6 +1,7 @@
 import React from 'react';
-import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Fa } from 'mdbreact';
+import { Row, Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Fa } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
+import './Navbar.css'
 
 class FixedNavbarExample extends React.Component {
   constructor(props) {
@@ -24,10 +25,14 @@ render() {
     return (
           <div>
           <Router>
+              <Row>
             <Navbar color="black" dark expand="md" scrolling fixed="top">
-                <NavbarBrand href="/">
-                    <strong>BRIGHT LIGHTS BASEMENT</strong>
-                </NavbarBrand>
+            <NavbarBrand href="#">
+                <img src={require('../../assets/images/BLB_Bulb_Final.png')} alt="bl-bulb" height="30"/>   
+            </NavbarBrand>
+            <NavbarBrand href="#">
+                <img src={require('../../assets/images/BLB_TypeOnly_Blk.png')} alt="bl-type-blk" height="30"/>   
+            </NavbarBrand>
                 { !this.state.isWideEnough && <NavbarToggler onClick={ this.onClick } />}
                 <Collapse isOpen = { this.state.collapse } navbar>
                     <NavbarNav left>
@@ -43,17 +48,21 @@ render() {
                     </NavbarNav>
                     <NavbarNav right>
                       <NavItem>
+                        <NavLink to="https://www.youtube.com/user/sightthesiren/featured" target="_blank" onClick="https://www.youtube.com/user/sightthesiren/featured"><Fa icon="youtube"/></NavLink>
+                      </NavItem>
+                      <NavItem>
+                        <NavLink to="http://instagram.com/brightlightsbasement" target="_blank" onClick="http://instagram.com/brightlightsbasement"><Fa icon="instagram"/></NavLink>
+                      </NavItem>
+                      <NavItem>
                         <NavLink to="http://facebook.com/brightlightsbasement" target="_blank" onClick="http://facebook.com/brightlightsbasement"><Fa icon="facebook"/></NavLink>
                       </NavItem>
                       <NavItem>
                         <NavLink to="http://twitter.com/basementbright" target="_blank" onClick="http://twitter.com/basementbright"><Fa icon="twitter"/></NavLink>
                       </NavItem>
-                      <NavItem>
-                        <NavLink to="http://instagram.com/brightlightsbasement" target="_blank" onClick="http://instagram.com/brightlightsbasement"><Fa icon="instagram"/></NavLink>
-                      </NavItem>
                     </NavbarNav>
                 </Collapse>
             </Navbar>
+            </Row>
         </Router>
       </div>
     );

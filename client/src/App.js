@@ -1,10 +1,6 @@
 import React from 'react'
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.css'
-// import Navbar from './components/Navbar'
-// import Jumbotron from './components/Jumbotron'
-// import EpiCard from './components/EpiCard'
-// import Footer from './components/Footer'
 import './App.css'
 import Home from './Layouts/Home';
 import Episode from './Layouts/Episode';

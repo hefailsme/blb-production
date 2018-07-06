@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Mask, Fa, View, Button} from 'mdbreact';
+import { Container, Row, Col, Mask, View } from 'mdbreact';
 import axios from 'axios';
 import './HomeCard.css'
 
@@ -27,60 +27,71 @@ class List extends Component {
             <h2 className="h1-responsive font-weight-bold text-center my-5">THE STORY OF BRIGHT LIGHTS</h2>
             <Row>
               <Col lg="5">
-                <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                  <img className="img-fluid" src="../../assets/images/donskate.jpg" alt="don-skate"/>
+                <View className="rounded z-depth-1 mb-lg-0 mb-6" hover waves>
+                  <img className="img-fluid" src={require('../../assets/images/donskate.jpg')} alt="don-skate"/>
                   <a><Mask overlay="white-slight"/></a>
                 </View>
+                  <h5>Donny and Danny Phillips of The Warriors, outside of Bright Lights v1.0</h5>
               </Col>
               <Col lg="7">
                   <h3 className="pink-text font-weight-bold mb-3 p-0"><strong>THE BIRTH OF BRIGHT LIGHTS</strong></h3>
-                  <p className="story">Today is the end of an era. I said goodbye to one of the most special places I was lucky enough to call home. 
-                    I didn’t physically live there, but my musical spirit definitely did. 
-                    Endless thanks to Dan Smith who graciously opened the door and handed me a key to what eventually would become Bright Lights. 
-                    It has been a true journey, both sonically and spiritually. As this chapter comes to a end, 
-                    I must also give thanks and all the love to Max Mcdonald, Raymond Camero, 
-                    Steve Choi and Erol Ulug for making Bright Lights the most enlightened and soulful studio experience, 
-                    joining me on this very wild adventure. Thank you to the bands, artists, and fellow engineers/producers 
-                    that brought their talents to Bright Lights. As sad as I am losing a place like this, 
-                    there is a light at the end of the tunnel...and it surely is bright. See you soon, Bright Lights Basement. 💡</p>
+                  <p className="story">Bright Lights Studio was born out of a small rehearsal space in Santa Ana, Ca. 
+                  The studio was the jam room for Jason Hedrick, which he sublet to Roger Camero. In need of a new place
+                  to write and record music, Roger made use of the shared space and named it, "Bright Lights", 
+                  due to the fluorescent lighting in the room. By recording standards, the place was tiny, extremely lacking 
+                  in acoutics, soundproofing, and ventilation. Luckily for him, most of his clientele came from the punk and hardcore community,
+                  where bands know what being DIY is all about. During this time, Roger recorded albums for bands such as, The Warriors,
+                  Force of Change, Dear Life, Retaliate, and Vendetta. While recording Force of Change, Roger met Erol Ulug, 
+                  who coincidentally ended up renting a room in the same building. The studio served its purpose as a stepping stone towards
+                  something greater, and in 2007, Roger made a move literally down the street.
+                   </p>
               </Col>
             </Row>
             <hr className="my-5"/>
             <Row>
               <Col lg="7">
-                <a className="pink-text">
-                  <h6 className="font-weight-bold mb-3">
-                    <Fa icon="newspaper" className="pr-2"></Fa>Lifestyle
-                  </h6>
-                </a>
-                <h3 className="font-weight-bold mb-3 p-0"><strong>Title of the news</strong></h3>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                <p>by <a><strong>Carine Fox</strong></a>, 14/08/2018</p>
-                <Button color="pink" size="md" className="mb-lg-0 mb-4 waves-light">Read more</Button>
+                <h3 className="pink-text font-weight-bold mb-3 p-0"><strong>BRIGHT LIGHTS v2.0</strong></h3>
+                <p className="story2">In 2007, a game changing opportunity was presented to Roger. Dan Smith, a fellow OC musician and tattoo artist,
+                  was recording a demo with Roger earlier in the year. During the session, Roger expressed his desire to find something 
+                  better than recording at a rehearsal space. Lucky for him, Dan was already a tenant in a warehouse just down the street. 
+                  The warehouse was home to his tattoo shop and was a practice space for his band. He offered to let Roger rent out the back of his warehouse, 
+                  which eventually became Bright Lights version 2. After a couple years sharing the space, 
+                  Dan found himself a new home tattooing in Los Angeles, and Roger inherited the whole warehouse. 
+                  That is when Erol re-entered the picture and became a full time studio mate. Bright Lights 2.0 served as their homebase for 11 years.
+                  Throughout the years, bands such as Thrice, RX Bandits, Comeback Kid, Night Demon, Silver Snakes, Sea Haven, and Graf Orlock graced Bright Lights with their presence.
+                  Unfortunately, all great things eventually come to an end. In the summer of 2018, 
+                  the building that Bright Lights operated in was sold, and the production duo was forced to move out.
+                </p>
+ 
               </Col>
               <Col lg="5">
-                <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                  <img className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg" alt="Sample image"/>
+                <View className="rounded z-depth-1 mb-lg-0 mb-4" hover waves>
+                  <img className="img-fluid" src={require('../../assets/images/thricebl.jpeg')} alt="thrice-bl"/>
                   <a><Mask overlay="white-slight"/></a>
                 </View>
+                <h5>Thrice recording at Bright Lights v2.0</h5>
               </Col>
             </Row>
             <hr className="my-5"/>
             <Row>
               <Col lg="5">
-                <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                  <img className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img (28).jpg" alt="Sample image"/>
+                <View className="rounded z-depth-1 mb-lg-0 mb-4" hover waves>
+                  <img className="img-fluid" src={require('../../assets/images/basement.jpg')} alt="basement"/>
                   <a><Mask overlay="white-slight"/></a>
                 </View>
+                  <h5>Bright Lights Basement awaits. Coming July 2018.</h5>
               </Col>
               <Col lg="7">
-                  <a className="indigo-text"><h6 className="font-weight-bold mb-3"><Fa icon="newspaper" className="pr-2"></Fa>Food</h6></a>
-                  <h3 className="font-weight-bold mb-3 p-0"><strong>Title of the news</strong></h3>
-                  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia sit amet.</p>
-                  <p>by <a><strong>Carine Fox</strong></a>, 11/08/2018</p>
-                  <Button color="indigo" size="md" className="waves-light ">Read more</Button>
+                  <h3 className="pink-text font-weight-bold mb-3 p-0"><strong>COMING SOON IN THE SUMMER OF 2018: "BRIGHT LIGHTS BASEMENT"</strong></h3>
+                  <p className="story3">We are truly excited for the future. We have teamed up with Lockout Music Studios to bring Downtown Santa Ana
+                  a brand new DIY recording facility. Located on the 4th Street strip, Bright Lights Basement is an underground (literally) multi-track
+                  digital recording studio with new features. Roger and Rollie have expanded operations, bringing in live video studio sessions as a major
+                  part of the new studio. The new format will come in the form of a web series, with fellow bands and artists joining the crew
+                  hanging out in DTSA and performing live at the studio. We are also pleased to announce that the studio will be compiling a studio blog,
+                  showing a glimpse of the recording vibes at Bright Lights Basement.</p>                  
               </Col>
             </Row>
+            <hr className="my-5"/>
           </Container>
     );
   }

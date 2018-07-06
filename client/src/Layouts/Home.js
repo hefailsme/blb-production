@@ -3,7 +3,8 @@ import Navbar from '../components/Navbar/Navbar'
 import Jumbotron from '../components/Jumbotron/Jumbotron'
 import EpiList from '../components/HomeCard/HomeCard'
 import Footer from '../components/Footer/Footer'
-// import './App.css'
+import {Row} from 'mdbreact'
+
 
 class Home extends React.Component {
     
@@ -13,11 +14,13 @@ class Home extends React.Component {
 
     render () {
         return (
-            <div className="App">
+            <div className="App">            
+                <Row>
                 <Navbar />
+                </Row>
                 <Jumbotron />
                 <EpiList />
-                <Footer />
+                <Footer />               
             </div>
         )
     }   

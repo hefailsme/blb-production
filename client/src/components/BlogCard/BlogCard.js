@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Fa, View, Button } from 'mdbreact';
 import axios from 'axios'
+import './BlogCard.css'
 
 class Blog extends Component {
 
@@ -23,7 +24,10 @@ class Blog extends Component {
         return(
         <div>
             <Container>
-                <h2 className="h1-responsive font-weight-bold text-center my-5">STUDIO BLOG</h2>
+                <h2 className="h1-responsive font-weight-bold text-center my-5">STUDIO BLOG ARCHIVE</h2>
+                <p className="epi-comment">AS WE AWAIT THE ARRIVAL OF BRIGHT LIGHTS BASEMENT'S NEW STUDIO BLOG, 
+                        TAKE A LOOK AT BRIGHT LIGHTS V2.0 STUDIO BLOG ARCHIVE </p>
+                    <hr className="my-5"/>  
             <Row>
                 {this.state.blogs.map(blogs =>
                 <Col lg="4" md="12" className="mb-lg-0 mb-4">

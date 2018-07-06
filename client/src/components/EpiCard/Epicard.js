@@ -2,7 +2,7 @@
 import React from 'react';
 import { Container, Row, Col, Fa, View, Button } from 'mdbreact'
 import axios from 'axios'
-
+import './Epicard.css'
 
 class EpiCard extends React.Component {
 
@@ -25,7 +25,10 @@ class EpiCard extends React.Component {
         return (
         <div>
             <Container>
-                    <h2 className="h1-responsive font-weight-bold text-center my-5">EPISODES</h2>
+                    <h2 className="h1-responsive font-weight-bold text-center my-5">PAST EPISODES</h2>
+                    <p className="epi-comment">AS WE AWAIT THE ARRIVAL OF BRIGHT LIGHTS BASEMENT'S NEW WEB SERIES, 
+                        TAKE A LOOK AT PAST LIVE PERFORMANCES FROM BRIGHT LIGHTS V2.0  </p>
+                    <hr className="my-5"/>  
                 <Row>
                     {this.state.episodes.map(episodes => 
                     <Col lg="4" md="12" className="mb-lg-0 mb-4">
